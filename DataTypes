@@ -1,0 +1,21 @@
+# Identify the data types or class of each of the following values:
+
+'True' = String
+False = Boolean
+(1, 2, 3) = Tuple
+1.5 = Float
+[1, 2, 3] = List
+2 = Integer
+range(5) = Range
+{1, 2, 3} = Set
+None = NoneType
+{'foo', 'bar'} = Dictionary
+
+# Create a tuple called 'names' that contain several pet names:
+
+pet_names = ("Asta", "Butterscotch", "Pudding", "Neptune", "Darwin")
+
+# Create a dictionary named 'pets' that contain a list of pet names and the animal type:
+
+pets = {"Asta": "dog", "Butterscotch": "cat", "Pudding": "cat", "Neptune": "fish", "Darwin": "lizard}
+
