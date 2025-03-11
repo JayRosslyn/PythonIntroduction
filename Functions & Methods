@@ -8,4 +8,29 @@ This program will display "bar" because the 'foo' variable is only updated in th
 
 #3 Write a program that uses a multiply function:
 
-first_number = input
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
+print (first_number * second_number)
+
+#4 Identify the following items in the code:
+
+Function name: multiply_numbers
+Function arguments: 2, 3, 4
+Function definition: lines 1-3
+Function body: lines 2 and 3
+Function parameters: num1, num2, and num3
+Function invocation: multiply_numbers(2, 3, 4)
+Function return value: 24
+All identifiers: multiply_numbers, num1, num2, num3, result, and product
+
+#5 This code doesn't display anything because there is no print command in the code
+
+#6 This code doesn't display anything because of the return call on line 3
+
+#7 This code will raise an error because of 'qux'
+
+#8 This code will raise an error because there are too many arguments
+
+#9 This code will print the arguments
+
+#10 
