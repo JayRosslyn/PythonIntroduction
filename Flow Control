@@ -1,0 +1,54 @@
+#1 What values do the following expressions evaluate?
+False
+True
+3
+3
+False
+True
+False
+False
+False
+True
+
+#2
+def even_or_odd(number):
+  if number % 2 == 0:
+    print('even')
+  else:
+    print('odd')
+
+#3 The code prints Product2 and Product not found! to match the arguments '113' and 142
+
+#4
+if foo():
+  return 'bar'
+else:
+  return qux()
+
+#5 This will print 'Empty' because of the empty list on line 7
+
+#6 
+def upper_words(greeting):
+  if len(greeting) > 10:
+    return greeting.upper()
+  else:
+    return greeting
+
+print(upper_words("hello world"))
+print(upper_words("goodbye"))
+
+#7 
+def number_range(number):
+  if number < 0:
+    print(f"{number} is less than 0")
+  elif number < 50 and > 0:
+    print(f"{number} is between 0 and 50")
+  elif number < 100 and > 50:
+    print(f"{number} is between 50 and 100")
+  elif number > 100:
+    print(f"{number} is greater than 100")
+
+number_range(-1)
+number_range(36)
+number_range(60)
+number_range(150)
