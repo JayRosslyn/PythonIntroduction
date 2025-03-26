@@ -1,19 +1,13 @@
-#1 What happens when you run the following program? Why do we get that result?
+#1 The program will output a NameError because 'foo' is not defined.
 
-The program will output a NameError because 'foo' is not defined.
-
-#2 What does this program print? Why?
-
-This program will display "bar" because the 'foo' variable is only updated in the function block.
+#2 This program will display "bar" because the 'foo' variable is only updated in the function block.
 
 #3 Write a program that uses a multiply function:
-
 first_number = int(input("Enter the first number: "))
 second_number = int(input("Enter the second number: "))
 print (first_number * second_number)
 
 #4 Identify the following items in the code:
-
 Function name: multiply_numbers
 Function arguments: 2, 3, 4
 Function definition: lines 1-3
@@ -31,6 +25,26 @@ All identifiers: multiply_numbers, num1, num2, num3, result, and product
 
 #8 This code will raise an error because there are too many arguments
 
-#9 This code will print the arguments
+#9 This code will print the arguments, thus printing # 42, 3.141592, 2.718
 
-#10 
+#10 This will assign the third argument to the third parameter, thus printing # 42, 3.141592, 2
+
+#11 This will assign the single argument to the first parameter and print along with the 2nd and 3rd pre-assigned parameters. 
+
+#12 This will raise an error because the first parameter has no default value unlike the 2nd and 3rd parameters.
+
+#13 This will raise an error because the 3rd parameter must have a default value if the prior parameters have one.
+
+#14 The identifiers are mutiply, left, right, first_number, second_number, get_num, prompt, float, input, product, and print.
+
+#15 The global identifiers are multiply, get_num, first_number, second_number, product. The local identifiers are left,
+right, prompt. The built-in identifiers are float, input, print.
+
+#16 Line 1 and 9 contain multiply functions, lines 4, 7, 8 contain the get_num function, line 5 contains the float and input
+functions, line 10 contains the print function. Left and right parameters are on line 1 and 2. Prompt paramter is on lines 4 and 5.
+
+#17 The function is say, the methods are .upper() and .lower(), and the built-in functions are print, input, and max
+
+#18 numbers_1 and numbers_2 will return True, numbers_3 and numbers_4 will return False.
+
+#19 numbers_1 and numbers_3 will return False, numbers_2 and numbers_4 will return True.
