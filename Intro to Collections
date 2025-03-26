@@ -1,0 +1,58 @@
+1.
+people = ["john", "bill", "oswald", "jasper"]
+print(len(people)
+# 4
+
+2. Create a new tuple and reassign:
+stuff = ("hello", "world", "bye", "now")
+stuff = ("hello", "world", "goodbye", "now")
+
+3.
+Tuples are immutable and use parentheses whereas lists are mutable and
+use square brackets. They can both store all different data types and are
+both types of sequences.
+
+4. 
+Strings can be treated as sequences because we can use a numeric index to
+access the different elements.
+
+5.
+The elements inside a set are unordered and cannot be indexed.
+
+6. 
+pi = 3.141592
+str_pi = str(pi)
+
+7.
+0-6
+1-5
+3, 7, 11
+Empty
+8, 7, 6, 5, 4
+
+8. 
+print(list(range(3, 17, 4)))
+# 3, 7, 11, 15
+
+9. 
+The lists are equal because all we did was reassign my_list to another_list. All
+of the elements are the same. They aren't the same object because they are two
+different lists after reassigning. The nested lists will also remain equal and 
+remain the same objects.
+
+10. 
+This will not print in alphabetical order because the elements are stored in a set.
+There's no telling what Bob will end up. 
+
+11.
+my_dict = {
+  "Alice": "USA",
+  "Francois": "Canada",
+  "Inti": "Peru",
+  "Monika": "Germany", 
+  "Sanyu": "Uganda", 
+  "Yoshitaka": "Japan",
+}
+
+print(my_dict["Alice"])
+
