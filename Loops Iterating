@@ -43,3 +43,28 @@ for nested_list in my_list:
       print(digit)
 
 6. 
+my_list = [1, 3, 6, 11, 4, 2, 4, 9, 17, 16, 0]
+result = []
+for digit in my_list:
+  if number % 2 == 0:
+    result.append('even')
+  else:
+    result.append('odd')
+print(result)
+
+7.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
